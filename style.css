@@ -1,0 +1,102 @@
+body {
+    background-color: rgb(245, 243, 240);
+}
+h1 {
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(245, 243, 240);
+}
+h1 {
+    font-size: 36px;
+    color: #fff;
+}
+h2 {
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+}
+ul  li {
+    font-size: 24px;
+    padding: 10px;
+}
+ul  li:hover {
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(63, 2, 71);
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.header-inner {
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-inner {
+    width: 100%;
+    display: flex;
+}
+.left {
+    width: 30%;
+    height: 670px;
+    padding: 20px 40px;
+    background-color: rgb(255, 255, 0);
+}
+.right {
+    width: 70%;
+    height: 670px;
+    padding: 25px;
+    background-color: rgb(87, 87, 56);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.article-image {
+    width: 100%;
+    height: 400px;
+    background: url(./Без\ названия.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom {
+    width: 100%;
+    height: 250px;
+    padding-top: 20px;
+}
+.bottom-images {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.block {
+    width: 25%;
+    height: 150px;
+    background-color: black;
+}
+.footer-inner {
+    width: 100%;
+    height: 150px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
